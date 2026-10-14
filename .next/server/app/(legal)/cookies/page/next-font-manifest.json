@@ -1,0 +1,12 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/src/app/(legal)/cookies/page": [
+      "static/media/cal_sans-s.p.2nb94_frkw5h-.ttf",
+      "static/media/dm_sans-s.p.1ak_r0qwk4efr.ttf",
+      "static/media/dm_sans_semibold-s.p.0vbbr_motsstn.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

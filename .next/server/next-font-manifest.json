@@ -1,0 +1,32 @@
+{
+  "app": {
+    "[project]/src/app/(legal)/cookies/page": [
+      "static/media/cal_sans-s.p.2nb94_frkw5h-.ttf",
+      "static/media/dm_sans-s.p.1ak_r0qwk4efr.ttf",
+      "static/media/dm_sans_semibold-s.p.0vbbr_motsstn.ttf"
+    ],
+    "[project]/src/app/(legal)/privacy/page": [
+      "static/media/cal_sans-s.p.2nb94_frkw5h-.ttf",
+      "static/media/dm_sans-s.p.1ak_r0qwk4efr.ttf",
+      "static/media/dm_sans_semibold-s.p.0vbbr_motsstn.ttf"
+    ],
+    "[project]/src/app/(legal)/terms/page": [
+      "static/media/cal_sans-s.p.2nb94_frkw5h-.ttf",
+      "static/media/dm_sans-s.p.1ak_r0qwk4efr.ttf",
+      "static/media/dm_sans_semibold-s.p.0vbbr_motsstn.ttf"
+    ],
+    "[project]/src/app/_not-found/page": [
+      "static/media/cal_sans-s.p.2nb94_frkw5h-.ttf",
+      "static/media/dm_sans-s.p.1ak_r0qwk4efr.ttf",
+      "static/media/dm_sans_semibold-s.p.0vbbr_motsstn.ttf"
+    ],
+    "[project]/src/app/page": [
+      "static/media/cal_sans-s.p.2nb94_frkw5h-.ttf",
+      "static/media/dm_sans-s.p.1ak_r0qwk4efr.ttf",
+      "static/media/dm_sans_semibold-s.p.0vbbr_motsstn.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
