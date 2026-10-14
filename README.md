@@ -13,13 +13,35 @@ Open http://localhost:3000. Node.js 22 or newer is recommended.
 
 ```sh
 npm run build
-npm run start
 npm run lint
 npm run typecheck
 npm run check:copy
 ```
 
 `check:copy` requires Poppler's `pdftotext` and verifies every copy string against the original PDF (68 strings). Layout line breaks are normalized. The supplied PDFs remain unchanged.
+
+## Cloudflare Workers deployment
+
+The site uses Next.js static export. `npm run build` generates `out/`, including
+the homepage, legal pages, JavaScript, images, and fonts. Cloudflare serves these
+files directly using `wrangler.jsonc`; this deployment needs no Worker script or
+Next.js server. Images use their original files because the Next.js image
+optimization server is unavailable on a static host.
+
+For the `go-technologies` Worker, set the repository root as the build root and use:
+
+- Build command: `npm run build`
+- Deploy command: `npx wrangler@4 deploy`
+- Node.js version: `24`
+
+Redeploy after committing the configuration. Remove any old deploy command that
+targets a generated Worker or `.next/` entrypoint. Wrangler uploads only `out/`.
+Preview locally after building with `npx wrangler@4 dev`; `next start` does not
+support static exports. Unknown URLs return the exported 404 page.
+
+Cloudflare Error 1101 means a Worker threw a JavaScript exception; it does not
+identify the exception. If diagnosing the previous deployment, inspect its
+Observability logs for the failing request and stack trace.
 
 ## Source of truth
 
