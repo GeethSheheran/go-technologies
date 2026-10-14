@@ -1,0 +1,5 @@
+(globalThis["TURBOPACK_CHUNK_LISTS"] || (globalThis["TURBOPACK_CHUNK_LISTS"] = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: ["static/chunks/_1sgggdt._.css","static/chunks/node_modules_next_dist_20wefz_._.js","static/chunks/src_components_1k0i1zx._.js","static/chunks/src_0qcdegp._.js","static/chunks/node_modules_next_0imtvtq._.js","static/chunks/node_modules_motion-dom_dist_es_0g6cuzy._.js","static/chunks/node_modules_framer-motion_dist_es_1wj1zwv._.js","static/chunks/node_modules_gsap_1zwqb07._.js","static/chunks/node_modules_0-7ved9._.js","static/chunks/src_components_1dfhv7_._.css","static/chunks/node_modules_three_build_three_core_18d0oq6.js","static/chunks/node_modules_three_build_three_module_03rsyo6.js","static/chunks/src_components_0l-zrka._.js","static/chunks/node_modules_three_examples_jsm_1yqpfky._.js","static/chunks/src_components_0ymvvpy._.js","static/chunks/node_modules_three_examples_jsm_geometries_RoundedBoxGeometry_0gvvsrm.js","static/chunks/src_components_audience-avatar-runtime_ts_1fkc8w8._.js"],
+    source: "entry"
+});

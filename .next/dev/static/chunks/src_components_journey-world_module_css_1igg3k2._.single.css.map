@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/journey-world.module.css"],"sourcesContent":[".world {\n  position: absolute;\n  inset: 0;\n  isolation: isolate;\n  background: transparent;\n  overflow: hidden;\n}\n.canvas {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  touch-action: pan-y;\n  cursor: grab;\n}\n.canvas:active {\n  cursor: grabbing;\n}\n.canvas canvas {\n  display: block;\n  position: absolute;\n  inset: 0;\n  max-width: 100%;\n  max-height: 100%;\n}\n.fallback {\n  position: absolute;\n  inset: 0;\n}\n.fallback img {\n  object-fit: cover;\n}\n.canvas[data-render=\"ready\"] .fallback {\n  visibility: hidden;\n}\n.canvas[data-render=\"fallback\"] canvas {\n  visibility: hidden;\n}\n@media (prefers-reduced-motion: reduce) {\n  .canvas {\n    cursor: default;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;AAOA;;;;;;;;AAOA;;;;AAGA;;;;;;;;AAOA;;;;;AAIA;;;;AAGA;;;;AAMA;EACE"}}]
+}

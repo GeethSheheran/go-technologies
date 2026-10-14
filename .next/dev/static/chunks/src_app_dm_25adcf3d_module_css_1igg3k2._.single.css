@@ -1,0 +1,33 @@
+/* [project]/src/app/dm_25adcf3d.module.css [app-client] (css) */
+@font-face {
+  font-family: dm;
+  src: url("../media/dm_sans-s.p.1ak_r0qwk4efr.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: dm;
+  src: url("../media/dm_sans_semibold-s.p.0vbbr_motsstn.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: dm Fallback;
+  src: local(Arial);
+  ascent-override: 94.36%;
+  descent-override: 29.49%;
+  line-gap-override: 0.0%;
+  size-adjust: 105.13%;
+}
+
+.dm_25adcf3d-module__ujqWKq__className {
+  font-family: dm, dm Fallback;
+}
+
+.dm_25adcf3d-module__ujqWKq__variable {
+  --font-dm: "dm", "dm Fallback";
+}
+
+/*# sourceMappingURL=src_app_dm_25adcf3d_module_css_1igg3k2._.single.css.map*/

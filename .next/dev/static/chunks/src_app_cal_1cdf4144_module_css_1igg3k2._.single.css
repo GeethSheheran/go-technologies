@@ -1,0 +1,27 @@
+/* [project]/src/app/cal_1cdf4144.module.css [app-client] (css) */
+@font-face {
+  font-family: cal;
+  src: url("../media/cal_sans-s.p.2nb94_frkw5h-.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: cal Fallback;
+  src: local(Arial);
+  ascent-override: 98.6%;
+  descent-override: 29.58%;
+  line-gap-override: 0.0%;
+  size-adjust: 101.42%;
+}
+
+.cal_1cdf4144-module__rj-qyq__className {
+  font-family: cal, cal Fallback;
+  font-weight: 400;
+}
+
+.cal_1cdf4144-module__rj-qyq__variable {
+  --font-cal: "cal", "cal Fallback";
+}
+
+/*# sourceMappingURL=src_app_cal_1cdf4144_module_css_1igg3k2._.single.css.map*/

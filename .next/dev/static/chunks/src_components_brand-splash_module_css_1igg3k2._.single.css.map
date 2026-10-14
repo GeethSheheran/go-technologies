@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/brand-splash.module.css"],"sourcesContent":[".splash {\n  position: fixed;\n  inset: 0;\n  z-index: 10000;\n  display: grid;\n  place-items: center;\n  background: #fff;\n  color: #0e2f2c;\n  /* If JavaScript cannot hydrate, the homepage is still reachable. */\n  animation: fail-open 0s 5s forwards;\n}\n\n.splash[hidden] {\n  display: none;\n}\n\n.artwork {\n  width: min(360px, 72vw);\n}\n\n.artwork svg {\n  display: block;\n  width: 100%;\n  height: auto;\n  overflow: visible;\n}\n\n.copyright {\n  position: absolute;\n  bottom: max(28px, env(safe-area-inset-bottom));\n  inset-inline: 20px;\n  margin: 0;\n  font-size: 11px;\n  line-height: 1.5;\n  text-align: center;\n  color: #64716c;\n}\n\n@keyframes fail-open {\n  to {\n    visibility: hidden;\n    pointer-events: none;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;AAYA;;;;AAIA;;;;AAIA;;;;;;;AAOA;;;;;;;;;;;AAWA"}}]
+}

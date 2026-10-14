@@ -1,0 +1,49 @@
+/* [project]/src/components/journey-world.module.css [app-client] (css) */
+.journey-world-module__4xb4rG__world {
+  isolation: isolate;
+  background: none;
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.journey-world-module__4xb4rG__canvas {
+  touch-action: pan-y;
+  cursor: grab;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.journey-world-module__4xb4rG__canvas:active {
+  cursor: grabbing;
+}
+
+.journey-world-module__4xb4rG__canvas canvas {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  position: absolute;
+  inset: 0;
+}
+
+.journey-world-module__4xb4rG__fallback {
+  position: absolute;
+  inset: 0;
+}
+
+.journey-world-module__4xb4rG__fallback img {
+  object-fit: cover;
+}
+
+.journey-world-module__4xb4rG__canvas[data-render="ready"] .journey-world-module__4xb4rG__fallback, .journey-world-module__4xb4rG__canvas[data-render="fallback"] canvas {
+  visibility: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .journey-world-module__4xb4rG__canvas {
+    cursor: default;
+  }
+}
+
+/*# sourceMappingURL=src_components_journey-world_module_css_1igg3k2._.single.css.map*/

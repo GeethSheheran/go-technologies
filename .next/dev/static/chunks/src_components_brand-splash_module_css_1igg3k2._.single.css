@@ -1,0 +1,46 @@
+/* [project]/src/components/brand-splash.module.css [app-client] (css) */
+.brand-splash-module__Fquwkq__splash {
+  z-index: 10000;
+  color: #0e2f2c;
+  background: #fff;
+  place-items: center;
+  animation: 0s 5s forwards brand-splash-module__Fquwkq__fail-open;
+  display: grid;
+  position: fixed;
+  inset: 0;
+}
+
+.brand-splash-module__Fquwkq__splash[hidden] {
+  display: none;
+}
+
+.brand-splash-module__Fquwkq__artwork {
+  width: min(360px, 72vw);
+}
+
+.brand-splash-module__Fquwkq__artwork svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+
+.brand-splash-module__Fquwkq__copyright {
+  bottom: max(28px, env(safe-area-inset-bottom));
+  text-align: center;
+  color: #64716c;
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.5;
+  position: absolute;
+  inset-inline: 20px;
+}
+
+@keyframes brand-splash-module__Fquwkq__fail-open {
+  to {
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+/*# sourceMappingURL=src_components_brand-splash_module_css_1igg3k2._.single.css.map*/
