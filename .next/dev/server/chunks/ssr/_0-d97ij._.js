@@ -91,9 +91,20 @@ const metadata = {
         description: "Go Technologies builds digital products that make travel and mobility simpler, more connected and easier to navigate - starting with GoChauffeur in Sri Lanka.",
         images: [
             {
-                url: "/images/sri-lanka-sigiriya.webp",
-                width: 1920,
-                height: 1056
+                url: "/brand/Asset%208%404x-8.png",
+                width: 5215,
+                height: 563,
+                alt: "Go Technologies logo",
+                type: "image/png"
+            }
+        ]
+    },
+    twitter: {
+        card: "summary_large_image",
+        images: [
+            {
+                url: "/brand/Asset%208%404x-8.png",
+                alt: "Go Technologies logo"
             }
         ]
     }
@@ -106,12 +117,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 41,
+            lineNumber: 56,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 40,
+        lineNumber: 55,
         columnNumber: 5
     }, this);
 }
